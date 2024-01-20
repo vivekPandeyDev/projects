@@ -1,0 +1,40 @@
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-content {
+  text-align: center;
+}
+
+.not-found-heading {
+  font-size: 5rem;
+  color: #ff7f50;
+  margin-bottom: 1rem;
+}
+
+.not-found-text {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.not-found-animation {
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+}
+
+.not-found-svg {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

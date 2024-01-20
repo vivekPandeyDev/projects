@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:~/h2/social
+    username: sa
+    password: sa
+    driverClassName: org.h2.Driver
+  #  hibernate configuration
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.f61caf98f98034b9
+            client-secret: ad70b6f90bc4215ca9b6679f2c21f079238aa5ff
+            client-name: GitHub
+            scope: read:user,user:email
+        provider:
+          github:
+            authorization-uri: https://github.com/login/oauth/authorize
+            token-uri: https://github.com/login/oauth/access_token
+            user-info-uri: https://api.github.com/user
+            user-name-attribute: name

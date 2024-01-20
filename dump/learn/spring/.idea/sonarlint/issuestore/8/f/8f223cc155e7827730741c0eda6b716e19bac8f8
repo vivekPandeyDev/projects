@@ -1,0 +1,10 @@
+
+`
+java:S1854">Remove this useless assignment to local variable "addressDao".(¾ÃÆëøÿÿÿÿ8‰ÆŠœŒ1
+Q
+java:S1481"/Remove this unused "addressDao" local variable.(¾ÃÆëøÿÿÿÿ8ÆŠœŒ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸‘ùêşÿÿÿÿ8ÆŠœŒ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Á §ğ8ÆŠœŒ1
+X	java:S125"<This block of commented-out lines of code should be removed.(“ ÍŠ8ÆŠœŒ1
+Y
+java:S1128"7Remove this unused import 'db_connection.MyConnection'.(ÃöéÉùÿÿÿÿ8ÆŠœŒ1

@@ -1,0 +1,12 @@
+
+]	java:S1256"<This block of commented-out lines of code should be removed.(‹„ÍÚÿÿÿÿÿ8œ¢Ë ğ0
+X
+java:S1128";Remove this unused import 'javax.annotation.PostConstruct'.(›ÅÁ8¬¢Ë ğ0
+Z
+java:S1128	"8Remove this unused import 'javax.annotation.PreDestroy'.(ˆÇÜÆüÿÿÿÿ8¯¢Ë ğ0
+s
+java:S1128"VRemove this unused import 'org.springframework.beans.factory.annotation.Configurable'.(ïÜğş8º‹¼ğ0
+
+java:S1128"]Remove this unused import 'org.springframework.beans.factory.config.ConfigurableBeanFactory'.(á©³„üÿÿÿÿ8È†Äğ0
+k
+java:S1128"IRemove this unused import 'org.springframework.context.annotation.Scope'.(şè®€ÿÿÿÿÿ8Õøâğ0

@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer type="module" src="../js/index.js"></script>
+    <script defer type="module" src="../js/products.js"></script>
+    <script defer src="../js/countryApi.js"></script>
+    <style>
+        .required:after{
+            content:" *";
+            color:red;
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<!--navbar-->
+<div class="container-md">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Application</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Receipt</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Views
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Report
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--    form-->
+    <p>
+        <a class="btn" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
+           aria-controls="multiCollapseExample1">Customer Information</a>
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">Loan Information
+        </button>
+    </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    <form class="row g-3 mt-2">
+                        <h2>Personal Information</h2>
+                        <div class="col-md-6">
+                            <label class="form-label required">gender</label>
+                            <select class="form-select" aria-label="gender selection">
+                                <option selected value="male">male</option>
+                                <option value="female">female</option>
+                                <option value="other">other</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer02" class="form-label required">First name</label>
+                            <input type="text" class="form-control" id="validationServer02" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                length greater than 3 or Name Should not contain special characters!!!!
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer03" class="form-label required">LastName</label>
+                            <input type="text" class="form-control" id="validationServer03" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                length greater than 3 or last name should not contain special characters!!!!
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer04" class="form-label">FullName</label>
+                            <input type="text" class="form-control" id="validationServer04" required disabled>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Nationality</label>
+                            <select class="form-select" aria-label="gender selection">
+                                <option selected value="indian">Indian</option>
+                                <option value="nri">NRI</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="dateOfBirth" class="form-label required">Date Of Birth</label>
+                            <!--            is-invalid-->
+                            <input class="form-select" id="dateOfBirth" type="date" name="begin"
+                                   placeholder="dd-mm-yyyy"
+                                   min="1997-01-01" max="2030-12-31">
+                        </div>
+                        <h3>Employee Details</h3>
+                        <div class="col-md-6">
+                            <label class="form-label required">Organization Type</label>
+                            <select class="form-select" aria-label="organization type select">
+                                <option selected value="line structure">Line Structure</option>
+                                <option value="line and staff">Line and Staff Organization</option>
+                                <option value="functional structure">Functional Structure Organization</option>
+                                <option value="matrix structure">Matrix Structure Organization</option>
+                                <option value="project structure">Project Structure Organization</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer04" class="form-label">Total Work Experience</label>
+                            <input type="number" min="0" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="validationServer04" class="form-label">Organization Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <h3>Address Detail</h3>
+                        <div class="col-md-6">
+                            <label class="form-label">House No</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">Country</label>
+                            <select id="country" class="form-select" aria-label="country select">
+                                <option value="select any">Select Country</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">State</label>
+                            <select id="state" class="form-select" aria-label="state select">
+                                <option value="select any">Select State</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">City</label>
+                            <select id="city" class="form-select" aria-label="city select">
+                                <option value="select any">Select City</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">House No</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <hr>
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6 mb-3">
+                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-primary">Next</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    <form class="row g-3 mt-2">
+                        <div class="col-md-6">
+                            <label for="validationServer06" class="form-label required">Loan Application No</label>
+                            <input type="text" class="form-control" id="validationServer06" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">
+                                loan application number should not contain special characters!!!!
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label required">Product Type</label>
+                            <select id="loanType" class="form-select" aria-label="product type">
+                                <option selected value="none">select product type</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label required">Product</label>
+                            <select id="product" class="form-select" aria-label="product">
+                                <option selected value="none">select product</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label required">Loan Amount Request</label>
+                            <input type="number" min="0" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label required">Tenure(months)</label>
+                            <input type="number" min="0" max="999" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label required">rate</label>
+                            <input type="number" min="0" max="99" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="agreementDate" class="form-label">Agreement Date</label>
+                            <!--            is-invalid-->
+                            <input class="form-select" id="agreementDate" type="date" name="begin"
+                                   placeholder="dd-mm-yyyy"
+                                   min="1997-01-01" max="2030-12-31">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="installmentDate" class="form-label required">Installment Due Date</label>
+                            <!--            is-invalid-->
+                            <input class="form-select" id="installmentDate" type="date" name="begin"
+                                   placeholder="dd-mm-yyyy"
+                                   min="1997-01-01" max="2030-12-31" required>
+                        </div>
+                        <hr>
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6 mb-3">
+                            <button type="button" class="btn btn-primary w-50">Move to Next Stage</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    form end-->
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>

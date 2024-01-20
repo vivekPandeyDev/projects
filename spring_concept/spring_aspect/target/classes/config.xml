@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+   		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+   		http://www.springframework.org/schema/util
+   		http://www.springframework.org/schema/util/spring-util-2.0.xsd
+        "
+>
+    <context:annotation-config/>
+    <context:property-placeholder location="customer-info.properties"/>
+    <context:property-placeholder location="dbconfig.properties"/>
+    <bean id="address" class="entity.Address" p:addressId="100" p:addressLine1="address 1" p:addressLine2="address 2"
+    p:city="faridabad" p:state="haryana" p:zip="12003"/>
+
+    <!--<bean id="loanAgreement1" class="entity.LoanAgreement"  p:loanId="1000" p:loanType="home loan" p:amount="100000" p:loanStatus="APPROVED"/>
+    <bean id="loanAgreement2" class="entity.LoanAgreement" p:loanId="2000" p:loanType="vehicle loan" p:amount="50000" p:loanStatus="REJECTED"/>
+    <bean id="loanAgreement3" class="entity.LoanAgreement" p:loanId="3000" p:loanType="consumer loan" p:amount="80000" p:loanStatus="PENDING"/>-->
+
+    <util:list id="loanAgreement" list-class="java.util.ArrayList">
+        <bean  class="entity.LoanAgreement"  p:loanId="1000" p:loanType="home loan" p:amount="100000" p:loanStatus="APPROVED"/>
+        <bean  class="entity.LoanAgreement" p:loanId="2000" p:loanType="vehicle loan" p:amount="50000" p:loanStatus="REJECTED"/>
+        <bean  class="entity.LoanAgreement" p:loanId="3000" p:loanType="consumer loan" p:amount="80000" p:loanStatus="PENDING"/>
+    </util:list>
+
+    <bean id="customerN" class="entity.Customer"
+          c:customerId="1" c:customerName="vivek pandey"
+          c:monthlyIncome="2000" c:profession="engineer" c:designation="developer"
+          c:companyName="xyz company"
+          p:dob="12-03-2002"
+    >
+        <property name="phoneNumbers">
+            <list>
+                <value>9987642224</value>
+                <value>9985325353</value>
+            </list>
+        </property>
+        <property name="emailAddresses">
+            <set>
+                <value>1@gmail.com</value>
+                <value>2@gmail.com</value>
+                <value>3@gmail.com</value>
+                <value>4@gmail.com</value>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="customer1" class="entity.Customer"
+          c:customerId="1" c:customerName="${customer.name}"
+          c:monthlyIncome="2000" c:profession="engineer" c:designation="developer"
+          c:companyName="xyz company"
+          p:dob="12-03-2002"
+    >
+        <property name="phoneNumbers">
+            <list>
+                <value>9987642224</value>
+                <value>9985325353</value>
+            </list>
+        </property>
+        <property name="emailAddresses">
+            <set>
+                <value>1@gmail.com</value>
+                <value>2@gmail.com</value>
+                <value>3@gmail.com</value>
+                <value>4@gmail.com</value>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="customPropertyEditor"
+          class="org.springframework.beans.factory.config.CustomEditorConfigurer"
+    >
+        <property name="customEditors">
+            <map>
+                <entry key="java.time.LocalDate" value="utility.DateOfBirthEditor"/>
+                <entry key="utility.LoanStatus" value="utility.LoanStatusEditor"/>
+            </map>
+        </property>
+    </bean>
+
+
+
+</beans>
+
+

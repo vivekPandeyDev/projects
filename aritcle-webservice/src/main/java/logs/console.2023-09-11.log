@@ -1,0 +1,1343 @@
+2023-09-11 15:24:09.522 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-11 15:24:09.546 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-11 15:24:11.070 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:24:11.147 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:24:11.457 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$64f19d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:24:11.459 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e06a11f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:24:11.491 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:24:12.135 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:24:12.154 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:24:12.155 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:24:12.156 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:24:12.290 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:24:12.291 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2742 ms
+2023-09-11 15:24:12.334 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-09-11 15:24:12.760 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-09-11 15:24:12.769 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:24:14.869 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:24:15.478 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:24:15.903 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:24:15.915 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:24:15.961 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:27:45.107 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:27:45.108 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:27:45.122 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:27:45.171 INFO  FrameworkServlet.initServletBean - Completed initialization in 61 ms
+2023-09-11 15:27:45.298 WARN  MessageDispatcher.dispatch - No endpoint mapping found for [SaajSoapMessage {http://www.concretepage.com/article-ws}addArticleRequest]
+2023-09-11 15:29:49.189 WARN  MessageDispatcher.dispatch - No endpoint mapping found for [SaajSoapMessage {http://www.concretepage.com/article-ws}getArticleByIdRequest]
+2023-09-11 15:38:43.779 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:38:43.787 INFO  HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2023-09-11 15:38:43.815 INFO  HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2023-09-11 15:38:44.328 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:38:44.360 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:38:44.465 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$64f19d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:38:44.466 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e06a11f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:38:44.468 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:38:44.559 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:38:44.560 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:38:44.561 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:38:44.562 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:38:44.628 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:38:44.628 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 664 ms
+2023-09-11 15:38:44.676 INFO  HikariDataSource.getConnection - HikariPool-2 - Starting...
+2023-09-11 15:38:44.698 INFO  HikariDataSource.getConnection - HikariPool-2 - Start completed.
+2023-09-11 15:38:44.699 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:38:44.879 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:38:44.966 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:38:45.227 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:38:45.235 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:38:45.241 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:38:45.248 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:38:48.836 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:38:48.837 INFO  HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+2023-09-11 15:38:48.870 INFO  HikariDataSource.close - HikariPool-2 - Shutdown completed.
+2023-09-11 15:38:49.343 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:38:49.389 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:38:49.482 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$64f19d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:38:49.483 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e06a11f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:38:49.486 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:38:49.546 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:38:49.550 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:38:49.551 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:38:49.552 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:38:49.606 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:38:49.606 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 601 ms
+2023-09-11 15:38:49.625 INFO  HikariDataSource.getConnection - HikariPool-3 - Starting...
+2023-09-11 15:38:49.637 INFO  HikariDataSource.getConnection - HikariPool-3 - Start completed.
+2023-09-11 15:38:49.637 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:38:49.742 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:38:49.878 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:38:49.979 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:38:49.985 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:38:49.988 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:38:49.993 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:39:14.519 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:39:14.520 INFO  HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+2023-09-11 15:39:14.522 INFO  HikariDataSource.close - HikariPool-3 - Shutdown completed.
+2023-09-11 15:39:19.747 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-11 15:39:19.755 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-11 15:39:21.114 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:39:21.210 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:39:21.617 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:39:21.618 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:39:21.659 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:39:22.862 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:39:22.889 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:39:22.892 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:39:22.893 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:39:23.158 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:39:23.162 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3403 ms
+2023-09-11 15:39:23.270 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-09-11 15:39:23.710 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-09-11 15:39:23.720 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:39:24.997 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:39:25.598 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:39:25.974 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:39:25.991 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:39:26.035 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:39:52.440 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:39:52.440 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:39:52.448 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:39:52.470 INFO  FrameworkServlet.initServletBean - Completed initialization in 29 ms
+2023-09-11 15:40:21.342 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:21.347 INFO  HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2023-09-11 15:40:21.387 INFO  HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2023-09-11 15:40:22.001 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:40:22.043 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:40:22.144 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:22.145 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:22.148 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:40:22.246 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:40:22.248 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:22.249 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:40:22.252 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:40:22.315 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:40:22.315 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 786 ms
+2023-09-11 15:40:22.344 INFO  HikariDataSource.getConnection - HikariPool-2 - Starting...
+2023-09-11 15:40:22.359 INFO  HikariDataSource.getConnection - HikariPool-2 - Start completed.
+2023-09-11 15:40:22.360 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:40:22.496 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:22.667 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:40:22.810 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:40:22.819 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:22.822 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:40:22.834 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:40:25.375 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:25.375 INFO  HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+2023-09-11 15:40:25.399 INFO  HikariDataSource.close - HikariPool-2 - Shutdown completed.
+2023-09-11 15:40:25.857 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:40:25.897 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:40:26.014 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:26.015 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:26.021 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:40:26.124 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:40:26.125 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:26.126 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:40:26.126 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:40:26.188 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:40:26.188 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 673 ms
+2023-09-11 15:40:26.212 INFO  HikariDataSource.getConnection - HikariPool-3 - Starting...
+2023-09-11 15:40:26.223 INFO  HikariDataSource.getConnection - HikariPool-3 - Start completed.
+2023-09-11 15:40:26.224 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:40:26.318 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:26.470 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:40:26.568 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:40:26.575 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:26.578 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:40:26.583 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:40:31.326 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:40:31.326 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:40:31.327 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:40:31.329 INFO  FrameworkServlet.initServletBean - Completed initialization in 2 ms
+2023-09-11 15:40:42.648 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:42.649 INFO  HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+2023-09-11 15:40:42.680 INFO  HikariDataSource.close - HikariPool-3 - Shutdown completed.
+2023-09-11 15:40:43.268 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:40:43.292 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:40:43.354 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:43.355 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:43.357 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:40:43.400 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:40:43.401 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:43.401 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:40:43.402 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:40:43.443 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:40:43.444 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 602 ms
+2023-09-11 15:40:43.459 INFO  HikariDataSource.getConnection - HikariPool-4 - Starting...
+2023-09-11 15:40:43.473 INFO  HikariDataSource.getConnection - HikariPool-4 - Start completed.
+2023-09-11 15:40:43.474 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:40:43.608 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:43.781 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:40:43.876 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:40:43.882 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:43.887 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:40:43.894 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:40:46.428 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:46.429 INFO  HikariDataSource.close - HikariPool-4 - Shutdown initiated...
+2023-09-11 15:40:46.456 INFO  HikariDataSource.close - HikariPool-4 - Shutdown completed.
+2023-09-11 15:40:47.019 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:40:47.063 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:40:47.172 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:47.173 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:40:47.177 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:40:47.237 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:40:47.239 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:47.240 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:40:47.240 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:40:47.296 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:40:47.297 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 684 ms
+2023-09-11 15:40:47.318 INFO  HikariDataSource.getConnection - HikariPool-5 - Starting...
+2023-09-11 15:40:47.334 INFO  HikariDataSource.getConnection - HikariPool-5 - Start completed.
+2023-09-11 15:40:47.334 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:40:47.436 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:40:47.571 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:40:47.667 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:40:47.673 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:40:47.676 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:40:47.679 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:40:50.460 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:40:50.461 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:40:50.461 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:40:50.463 INFO  FrameworkServlet.initServletBean - Completed initialization in 2 ms
+2023-09-11 15:47:18.298 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:47:18.300 INFO  HikariDataSource.close - HikariPool-5 - Shutdown initiated...
+2023-09-11 15:47:18.326 INFO  HikariDataSource.close - HikariPool-5 - Shutdown completed.
+2023-09-11 15:47:18.661 ERROR SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.5.jar:2.5.5]
+	at com.vivek.soap.SoapApplication.main(SoapApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.5.jar:2.5.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.config.WSConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5f833c85]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: com/vivek/soap/exception/DetailSoapFaultDefinitionExceptionResolver
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 20 more
+Caused by: java.lang.ClassNotFoundException: com.vivek.soap.exception.DetailSoapFaultDefinitionExceptionResolver
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.5.jar:2.5.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 20 more
+2023-09-11 15:47:18.666 WARN  SpringApplication.handleRunFailure - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.config.WSConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5f833c85]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:886) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:874) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:861) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:802) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.5.jar:2.5.5]
+	at com.vivek.soap.SoapApplication.main(SoapApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.5.jar:2.5.5]
+Caused by: java.lang.NoClassDefFoundError: com/vivek/soap/exception/DetailSoapFaultDefinitionExceptionResolver
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: com.vivek.soap.exception.DetailSoapFaultDefinitionExceptionResolver
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.5.jar:2.5.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	... 24 more
+2023-09-11 15:47:21.201 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-11 15:47:21.202 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-11 15:47:21.451 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:47:21.487 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:47:21.573 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:47:21.574 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:47:21.576 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:47:21.687 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:47:21.688 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:47:21.689 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:47:21.689 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:47:21.739 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:47:21.740 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 531 ms
+2023-09-11 15:47:21.760 INFO  HikariDataSource.getConnection - HikariPool-6 - Starting...
+2023-09-11 15:47:21.774 INFO  HikariDataSource.getConnection - HikariPool-6 - Start completed.
+2023-09-11 15:47:21.775 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:47:21.879 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:47:22.012 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:47:22.111 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:47:22.115 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:47:22.120 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:47:22.125 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:47:28.364 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:47:28.365 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:47:28.366 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:47:28.368 INFO  FrameworkServlet.initServletBean - Completed initialization in 3 ms
+2023-09-11 15:49:20.601 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:49:20.602 INFO  HikariDataSource.close - HikariPool-6 - Shutdown initiated...
+2023-09-11 15:49:20.657 INFO  HikariDataSource.close - HikariPool-6 - Shutdown completed.
+2023-09-11 15:49:21.183 ERROR SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:193) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:153) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.5.jar:2.5.5]
+	at com.vivek.soap.SoapApplication.main(SoapApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.5.jar:2.5.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.config.WSConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3ae1cc6f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 20 more
+Caused by: java.lang.NoClassDefFoundError: com/vivek/soap/exception/DetailSoapFaultDefinitionExceptionResolver
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 20 more
+Caused by: java.lang.ClassNotFoundException: com.vivek.soap.exception.DetailSoapFaultDefinitionExceptionResolver
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.5.jar:2.5.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:238) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:231) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:221) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:169) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:144) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-2.5.5.jar:2.5.5]
+	... 20 more
+2023-09-11 15:49:21.187 WARN  SpringApplication.handleRunFailure - Unable to close ApplicationContext
+java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.config.WSConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3ae1cc6f]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:358) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:414) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$2(AbstractAutowireCapableBeanFactory.java:765) ~[spring-beans-5.3.10.jar:5.3.10]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:764) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:703) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:674) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1670) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1300) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:886) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:874) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:861) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:802) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:348) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.5.jar:2.5.5]
+	at com.vivek.soap.SoapApplication.main(SoapApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.5.jar:2.5.5]
+Caused by: java.lang.NoClassDefFoundError: com/vivek/soap/exception/DetailSoapFaultDefinitionExceptionResolver
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: com.vivek.soap.exception.DetailSoapFaultDefinitionExceptionResolver
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.5.jar:2.5.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	... 24 more
+2023-09-11 15:49:25.799 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-11 15:49:25.800 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-11 15:49:25.989 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:49:26.024 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:49:26.112 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:49:26.113 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:49:26.115 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:49:26.155 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:49:26.156 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:49:26.157 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:49:26.157 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:49:26.220 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:49:26.221 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 415 ms
+2023-09-11 15:49:26.249 INFO  HikariDataSource.getConnection - HikariPool-7 - Starting...
+2023-09-11 15:49:26.264 INFO  HikariDataSource.getConnection - HikariPool-7 - Start completed.
+2023-09-11 15:49:26.264 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:49:26.376 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:49:26.537 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:49:26.610 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:49:26.614 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:49:26.617 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:49:26.621 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:49:30.860 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:49:30.860 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:49:30.861 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:49:30.863 INFO  FrameworkServlet.initServletBean - Completed initialization in 2 ms
+2023-09-11 15:50:32.277 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:50:32.278 INFO  HikariDataSource.close - HikariPool-7 - Shutdown initiated...
+2023-09-11 15:50:32.317 INFO  HikariDataSource.close - HikariPool-7 - Shutdown completed.
+2023-09-11 15:50:32.683 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:50:32.706 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:50:32.752 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:50:32.752 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:50:32.754 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:50:32.792 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:50:32.793 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:50:32.794 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:50:32.794 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:50:32.829 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:50:32.829 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 380 ms
+2023-09-11 15:50:32.845 INFO  HikariDataSource.getConnection - HikariPool-8 - Starting...
+2023-09-11 15:50:32.855 INFO  HikariDataSource.getConnection - HikariPool-8 - Start completed.
+2023-09-11 15:50:32.856 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:50:32.928 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:50:33.026 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:50:33.088 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:50:33.094 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:50:33.097 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:50:33.101 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:50:35.648 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:50:35.648 INFO  HikariDataSource.close - HikariPool-8 - Shutdown initiated...
+2023-09-11 15:50:35.671 INFO  HikariDataSource.close - HikariPool-8 - Shutdown completed.
+2023-09-11 15:50:35.966 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:50:35.991 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:50:36.054 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:50:36.055 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:50:36.057 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:50:36.099 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:50:36.099 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:50:36.100 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:50:36.100 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:50:36.134 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:50:36.134 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 372 ms
+2023-09-11 15:50:36.147 INFO  HikariDataSource.getConnection - HikariPool-9 - Starting...
+2023-09-11 15:50:36.156 INFO  HikariDataSource.getConnection - HikariPool-9 - Start completed.
+2023-09-11 15:50:36.156 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:50:36.228 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:50:36.316 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:50:36.371 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:50:36.374 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:50:36.378 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:50:36.387 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:50:40.978 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:50:40.978 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:50:40.979 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:50:40.981 INFO  FrameworkServlet.initServletBean - Completed initialization in 3 ms
+2023-09-11 15:52:18.359 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:52:18.360 INFO  HikariDataSource.close - HikariPool-9 - Shutdown initiated...
+2023-09-11 15:52:18.387 INFO  HikariDataSource.close - HikariPool-9 - Shutdown completed.
+2023-09-11 15:52:18.827 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:52:18.862 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:52:19.056 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:52:19.058 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:52:19.062 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:52:19.127 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:52:19.128 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:52:19.129 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:52:19.129 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:52:19.173 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:52:19.173 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 657 ms
+2023-09-11 15:52:19.185 INFO  HikariDataSource.getConnection - HikariPool-10 - Starting...
+2023-09-11 15:52:19.193 INFO  HikariDataSource.getConnection - HikariPool-10 - Start completed.
+2023-09-11 15:52:19.193 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:52:19.249 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:52:19.330 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:52:19.401 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:52:19.405 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:52:19.407 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:52:19.409 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:52:21.994 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:52:21.995 INFO  HikariDataSource.close - HikariPool-10 - Shutdown initiated...
+2023-09-11 15:52:22.025 INFO  HikariDataSource.close - HikariPool-10 - Shutdown completed.
+2023-09-11 15:52:22.431 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 15:52:22.465 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2023-09-11 15:52:22.531 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:52:22.532 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 15:52:22.534 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 15:52:22.580 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 15:52:22.581 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:52:22.582 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 15:52:22.582 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 15:52:22.625 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 15:52:22.626 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 471 ms
+2023-09-11 15:52:22.636 INFO  HikariDataSource.getConnection - HikariPool-11 - Starting...
+2023-09-11 15:52:22.645 INFO  HikariDataSource.getConnection - HikariPool-11 - Start completed.
+2023-09-11 15:52:22.646 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 15:52:22.735 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 15:52:22.823 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 15:52:22.915 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 15:52:22.918 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 15:52:22.921 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 15:52:22.924 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 15:52:25.484 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 15:52:25.484 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 15:52:25.484 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 15:52:25.486 INFO  FrameworkServlet.initServletBean - Completed initialization in 2 ms
+2023-09-11 16:00:31.475 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:00:31.476 INFO  HikariDataSource.close - HikariPool-11 - Shutdown initiated...
+2023-09-11 16:00:31.501 INFO  HikariDataSource.close - HikariPool-11 - Shutdown completed.
+2023-09-11 16:00:31.816 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:00:31.836 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:00:31.867 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:00:31.867 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:00:31.868 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:00:31.896 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:00:31.897 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:00:31.897 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:00:31.897 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:00:31.930 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:00:31.930 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 317 ms
+2023-09-11 16:00:31.943 INFO  HikariDataSource.getConnection - HikariPool-12 - Starting...
+2023-09-11 16:00:31.953 INFO  HikariDataSource.getConnection - HikariPool-12 - Start completed.
+2023-09-11 16:00:31.953 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:00:32.012 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:00:32.021 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a201181]
+2023-09-11 16:00:32.022 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:00:32.023 INFO  HikariDataSource.close - HikariPool-12 - Shutdown initiated...
+2023-09-11 16:00:32.052 INFO  HikariDataSource.close - HikariPool-12 - Shutdown completed.
+2023-09-11 16:00:32.053 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:00:32.060 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:00:32.066 ERROR SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a201181]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.5.jar:2.5.5]
+	at com.vivek.soap.SoapApplication.main(SoapApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.5.jar:2.5.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a201181]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 21 more
+Caused by: java.lang.NoClassDefFoundError: com/vivek/soap/exception/CustomException
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 21 more
+Caused by: java.lang.ClassNotFoundException: com.vivek.soap.exception.CustomException
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.5.jar:2.5.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 21 more
+2023-09-11 16:00:34.816 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:00:34.840 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:00:34.894 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:00:34.895 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:00:34.897 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:00:34.940 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:00:34.941 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:00:34.942 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:00:34.943 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:00:34.979 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:00:34.980 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 344 ms
+2023-09-11 16:00:34.995 INFO  HikariDataSource.getConnection - HikariPool-13 - Starting...
+2023-09-11 16:00:35.003 INFO  HikariDataSource.getConnection - HikariPool-13 - Start completed.
+2023-09-11 16:00:35.004 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:00:35.084 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:00:35.182 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:00:35.233 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:00:35.237 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:00:35.239 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:00:35.242 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:00:47.535 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 16:00:47.535 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 16:00:47.536 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 16:00:47.539 INFO  FrameworkServlet.initServletBean - Completed initialization in 3 ms
+2023-09-11 16:02:22.281 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:02:22.281 INFO  HikariDataSource.close - HikariPool-13 - Shutdown initiated...
+2023-09-11 16:02:22.307 INFO  HikariDataSource.close - HikariPool-13 - Shutdown completed.
+2023-09-11 16:02:22.576 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:02:22.600 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:02:22.635 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:02:22.636 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:02:22.637 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:02:22.676 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:02:22.677 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:02:22.677 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:02:22.677 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:02:22.722 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:02:22.722 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 316 ms
+2023-09-11 16:02:22.738 INFO  HikariDataSource.getConnection - HikariPool-14 - Starting...
+2023-09-11 16:02:22.749 INFO  HikariDataSource.getConnection - HikariPool-14 - Start completed.
+2023-09-11 16:02:22.749 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:02:22.827 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:02:22.850 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6e3ef9]
+2023-09-11 16:02:22.851 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:02:22.852 INFO  HikariDataSource.close - HikariPool-14 - Shutdown initiated...
+2023-09-11 16:02:22.879 INFO  HikariDataSource.close - HikariPool-14 - Shutdown completed.
+2023-09-11 16:02:22.880 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:02:22.887 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:02:22.890 ERROR SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6e3ef9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.10.jar:5.3.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) [spring-boot-2.5.5.jar:2.5.5]
+	at com.vivek.soap.SoapApplication.main(SoapApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.5.jar:2.5.5]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'articleService': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6e3ef9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 23 more
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.vivek.soap.service.ArticleService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3d6e3ef9]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 23 more
+Caused by: java.lang.NoClassDefFoundError: com/vivek/soap/exception/CustomException
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: com.vivek.soap.exception.CustomException
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.5.jar:2.5.5]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3434) ~[?:?]
+	at java.lang.Class.getDeclaredMethods(Class.java:2536) ~[?:?]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.10.jar:5.3.10]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.10.jar:5.3.10]
+	... 23 more
+2023-09-11 16:02:24.562 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:02:24.588 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:02:24.645 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$b8cb271b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:02:24.645 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$92e61f3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:02:24.647 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:02:24.707 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:02:24.708 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:02:24.709 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:02:24.710 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:02:24.773 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:02:24.773 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 371 ms
+2023-09-11 16:02:24.792 INFO  HikariDataSource.getConnection - HikariPool-15 - Starting...
+2023-09-11 16:02:24.805 INFO  HikariDataSource.getConnection - HikariPool-15 - Start completed.
+2023-09-11 16:02:24.805 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:02:24.885 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:02:24.996 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:02:25.075 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:02:25.079 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:02:25.082 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:02:25.086 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:04:02.692 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:04:02.693 INFO  HikariDataSource.close - HikariPool-15 - Shutdown initiated...
+2023-09-11 16:04:02.694 INFO  HikariDataSource.close - HikariPool-15 - Shutdown completed.
+2023-09-11 16:04:11.893 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-11 16:04:11.901 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-11 16:04:12.811 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:04:12.880 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:04:13.201 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:04:13.202 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:04:13.233 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:04:13.852 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:04:13.867 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:04:13.868 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:04:13.868 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:04:13.995 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:04:13.995 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2093 ms
+2023-09-11 16:04:14.042 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-09-11 16:04:14.302 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-09-11 16:04:14.309 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:04:15.484 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:04:16.108 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:04:16.513 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:04:16.526 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:04:16.582 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:04:19.569 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 16:04:19.570 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 16:04:19.576 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 16:04:19.597 INFO  FrameworkServlet.initServletBean - Completed initialization in 27 ms
+2023-09-11 16:04:20.058 ERROR DirectJDKLog.log - Servlet.service() for servlet [messageDispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "text" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "String.startsWith(String)" because "text" is null
+	at com.sun.xml.messaging.saaj.soap.impl.ElementImpl.addTextNode(ElementImpl.java:697) ~[saaj-impl-1.5.3.jar:1.5.3]
+	at org.springframework.ws.soap.saaj.SaajSoapFaultDetailElement.addText(SaajSoapFaultDetailElement.java:47) ~[spring-ws-core-3.1.1.jar:?]
+	at com.vivek.soap.exception.DetailSoapFaultDefinitionExceptionResolver.customizeFault(DetailSoapFaultDefinitionExceptionResolver.java:22) ~[classes/:?]
+	at org.springframework.ws.soap.server.endpoint.AbstractSoapFaultDefinitionExceptionResolver.resolveExceptionInternal(AbstractSoapFaultDefinitionExceptionResolver.java:99) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.server.endpoint.AbstractEndpointExceptionResolver.resolveException(AbstractEndpointExceptionResolver.java:108) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.server.MessageDispatcher.processEndpointException(MessageDispatcher.java:322) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.server.MessageDispatcher.dispatch(MessageDispatcher.java:242) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.server.MessageDispatcher.receive(MessageDispatcher.java:174) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.transport.support.WebServiceMessageReceiverObjectSupport.handleConnection(WebServiceMessageReceiverObjectSupport.java:88) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.transport.http.WebServiceMessageReceiverHandlerAdapter.handle(WebServiceMessageReceiverHandlerAdapter.java:60) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.ws.transport.http.MessageDispatcherServlet.doService(MessageDispatcherServlet.java:288) ~[spring-ws-core-3.1.1.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.10.jar:5.3.10]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.53.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.10.jar:5.3.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.53.jar:9.0.53]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-11 16:04:20.066 INFO  DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-11 16:04:20.066 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2023-09-11 16:04:20.068 INFO  FrameworkServlet.initServletBean - Completed initialization in 1 ms
+2023-09-11 16:05:57.666 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:05:57.675 INFO  HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2023-09-11 16:05:57.711 INFO  HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2023-09-11 16:05:58.403 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:05:58.458 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:05:58.562 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:05:58.563 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:05:58.566 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:05:58.694 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:05:58.696 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:05:58.697 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:05:58.697 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:05:58.770 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:05:58.770 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 869 ms
+2023-09-11 16:05:58.804 INFO  HikariDataSource.getConnection - HikariPool-2 - Starting...
+2023-09-11 16:05:58.819 INFO  HikariDataSource.getConnection - HikariPool-2 - Start completed.
+2023-09-11 16:05:58.820 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:05:59.075 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:05:59.100 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.vivek.soap.service.IArticleService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-11 16:05:59.100 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:05:59.101 INFO  HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+2023-09-11 16:05:59.156 INFO  HikariDataSource.close - HikariPool-2 - Shutdown completed.
+2023-09-11 16:05:59.157 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:05:59.169 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:05:59.210 ERROR LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field articleService in com.vivek.soap.endpoints.ArticleEndpoint required a bean of type 'com.vivek.soap.service.IArticleService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.vivek.soap.service.IArticleService' in your configuration.
+
+2023-09-11 16:06:03.280 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:06:03.322 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:06:03.414 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:06:03.415 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:06:03.418 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:06:03.490 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:06:03.492 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:06:03.493 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:06:03.494 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:06:03.563 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:06:03.564 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 687 ms
+2023-09-11 16:06:03.595 INFO  HikariDataSource.getConnection - HikariPool-3 - Starting...
+2023-09-11 16:06:03.610 INFO  HikariDataSource.getConnection - HikariPool-3 - Start completed.
+2023-09-11 16:06:03.610 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:06:03.743 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:06:03.919 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:06:04.052 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:06:04.061 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:06:04.065 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:06:04.075 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:06:07.234 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 16:06:07.234 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 16:06:07.235 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 16:06:07.237 INFO  FrameworkServlet.initServletBean - Completed initialization in 3 ms
+2023-09-11 16:07:33.501 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:07:33.502 INFO  HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+2023-09-11 16:07:33.527 INFO  HikariDataSource.close - HikariPool-3 - Shutdown completed.
+2023-09-11 16:07:34.152 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:07:34.210 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:07:34.329 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:07:34.330 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:07:34.332 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:07:34.397 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:07:34.398 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:07:34.399 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:07:34.401 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:07:34.457 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:07:34.458 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 745 ms
+2023-09-11 16:07:34.476 INFO  HikariDataSource.getConnection - HikariPool-4 - Starting...
+2023-09-11 16:07:34.490 INFO  HikariDataSource.getConnection - HikariPool-4 - Start completed.
+2023-09-11 16:07:34.490 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:07:34.589 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:07:34.614 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.vivek.soap.service.IArticleService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-11 16:07:34.614 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:07:34.615 INFO  HikariDataSource.close - HikariPool-4 - Shutdown initiated...
+2023-09-11 16:07:34.642 INFO  HikariDataSource.close - HikariPool-4 - Shutdown completed.
+2023-09-11 16:07:34.643 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:07:34.648 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:07:34.652 ERROR LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field articleService in com.vivek.soap.endpoints.ArticleEndpoint required a bean of type 'com.vivek.soap.service.IArticleService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.vivek.soap.service.IArticleService' in your configuration.
+
+2023-09-11 16:07:37.685 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:07:37.724 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:07:37.796 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:07:37.797 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:07:37.800 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:07:37.878 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:07:37.879 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:07:37.881 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:07:37.882 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:07:37.969 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:07:37.969 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+2023-09-11 16:07:37.999 INFO  HikariDataSource.getConnection - HikariPool-5 - Starting...
+2023-09-11 16:07:38.012 INFO  HikariDataSource.getConnection - HikariPool-5 - Start completed.
+2023-09-11 16:07:38.013 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:07:38.125 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:07:38.274 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:07:38.376 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:07:38.381 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:07:38.384 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:07:38.389 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:07:41.998 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 16:07:41.999 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 16:07:41.999 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 16:07:42.001 INFO  FrameworkServlet.initServletBean - Completed initialization in 2 ms
+2023-09-11 16:22:32.655 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:22:32.657 INFO  HikariDataSource.close - HikariPool-5 - Shutdown initiated...
+2023-09-11 16:22:32.673 INFO  HikariDataSource.close - HikariPool-5 - Shutdown completed.
+2023-09-11 16:22:33.046 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:22:33.071 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:22:33.135 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:22:33.136 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:22:33.138 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:22:33.196 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:22:33.197 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:22:33.198 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:22:33.198 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:22:33.255 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:22:33.255 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 453 ms
+2023-09-11 16:22:33.276 INFO  HikariDataSource.getConnection - HikariPool-6 - Starting...
+2023-09-11 16:22:33.292 INFO  HikariDataSource.getConnection - HikariPool-6 - Start completed.
+2023-09-11 16:22:33.293 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:22:33.410 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:22:33.479 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:22:33.672 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:22:33.679 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:22:33.683 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:22:33.688 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:22:37.302 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:22:37.303 INFO  HikariDataSource.close - HikariPool-6 - Shutdown initiated...
+2023-09-11 16:22:37.311 INFO  HikariDataSource.close - HikariPool-6 - Shutdown completed.
+2023-09-11 16:22:37.804 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:22:37.836 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:22:37.908 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:22:37.909 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:22:37.913 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:22:37.971 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:22:37.977 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:22:37.978 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:22:37.980 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:22:38.100 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:22:38.100 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 668 ms
+2023-09-11 16:22:38.122 INFO  HikariDataSource.getConnection - HikariPool-7 - Starting...
+2023-09-11 16:22:38.139 INFO  HikariDataSource.getConnection - HikariPool-7 - Start completed.
+2023-09-11 16:22:38.140 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:22:38.265 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:22:38.288 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.vivek.soap.service.IArticleService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-11 16:22:38.288 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:22:38.289 INFO  HikariDataSource.close - HikariPool-7 - Shutdown initiated...
+2023-09-11 16:22:38.336 INFO  HikariDataSource.close - HikariPool-7 - Shutdown completed.
+2023-09-11 16:22:38.337 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:22:38.343 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:22:38.349 ERROR LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field articleService in com.vivek.soap.endpoints.ArticleEndpoint required a bean of type 'com.vivek.soap.service.IArticleService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.vivek.soap.service.IArticleService' in your configuration.
+
+2023-09-11 16:22:40.128 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:22:40.164 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:22:40.214 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:22:40.214 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:22:40.215 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:22:40.258 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:22:40.258 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:22:40.259 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:22:40.259 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:22:40.295 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:22:40.295 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 389 ms
+2023-09-11 16:22:40.311 INFO  HikariDataSource.getConnection - HikariPool-8 - Starting...
+2023-09-11 16:22:40.322 INFO  HikariDataSource.getConnection - HikariPool-8 - Start completed.
+2023-09-11 16:22:40.322 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:22:40.415 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:22:40.530 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:22:40.613 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:22:40.618 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:22:40.621 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:22:40.625 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:22:44.434 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 16:22:44.434 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 16:22:44.435 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 16:22:44.437 INFO  FrameworkServlet.initServletBean - Completed initialization in 3 ms
+2023-09-11 16:26:27.927 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:26:27.927 INFO  HikariDataSource.close - HikariPool-8 - Shutdown initiated...
+2023-09-11 16:26:27.965 INFO  HikariDataSource.close - HikariPool-8 - Shutdown completed.
+2023-09-11 16:26:28.332 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:26:28.363 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:26:28.414 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:26:28.415 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:26:28.416 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:26:28.468 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:26:28.470 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:26:28.470 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:26:28.471 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:26:28.511 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:26:28.512 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 430 ms
+2023-09-11 16:26:28.530 INFO  HikariDataSource.getConnection - HikariPool-9 - Starting...
+2023-09-11 16:26:28.542 INFO  HikariDataSource.getConnection - HikariPool-9 - Start completed.
+2023-09-11 16:26:28.542 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:26:28.636 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:26:28.656 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.vivek.soap.service.IArticleService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-11 16:26:28.656 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:26:28.657 INFO  HikariDataSource.close - HikariPool-9 - Shutdown initiated...
+2023-09-11 16:26:28.687 INFO  HikariDataSource.close - HikariPool-9 - Shutdown completed.
+2023-09-11 16:26:28.688 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:26:28.692 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:26:28.699 ERROR LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field articleService in com.vivek.soap.endpoints.ArticleEndpoint required a bean of type 'com.vivek.soap.service.IArticleService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.vivek.soap.service.IArticleService' in your configuration.
+
+2023-09-11 16:26:31.416 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:26:31.440 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:26:31.498 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:26:31.498 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:26:31.501 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:26:31.556 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:26:31.558 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:26:31.558 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:26:31.559 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:26:31.608 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:26:31.608 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 352 ms
+2023-09-11 16:26:31.620 INFO  HikariDataSource.getConnection - HikariPool-10 - Starting...
+2023-09-11 16:26:31.631 INFO  HikariDataSource.getConnection - HikariPool-10 - Start completed.
+2023-09-11 16:26:31.631 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:26:31.721 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:26:31.838 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:26:31.924 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:26:31.930 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:26:31.933 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:26:31.938 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:26:40.026 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-11 16:26:40.026 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-11 16:26:40.027 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-11 16:26:40.030 INFO  FrameworkServlet.initServletBean - Completed initialization in 4 ms
+2023-09-11 16:27:59.868 WARN  MessageDispatcher.dispatch - No endpoint mapping found for [SaajSoapMessage {http://www.concretepage.com/article-ws}addArticleRequest]
+2023-09-11 16:29:49.189 ERROR EnvelopeFactory.parseEnvelopeSax - SAAJ0511: Unable to create envelope from given source
+2023-09-11 16:29:59.789 ERROR EnvelopeFactory.parseEnvelopeSax - SAAJ0511: Unable to create envelope from given source
+2023-09-11 16:44:42.632 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:44:42.633 INFO  HikariDataSource.close - HikariPool-10 - Shutdown initiated...
+2023-09-11 16:44:42.663 INFO  HikariDataSource.close - HikariPool-10 - Shutdown completed.
+2023-09-11 16:44:42.978 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:44:42.998 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:44:43.034 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:44:43.034 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:44:43.036 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:44:43.075 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:44:43.076 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:44:43.077 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:44:43.077 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:44:43.118 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:44:43.119 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 337 ms
+2023-09-11 16:44:43.131 INFO  HikariDataSource.getConnection - HikariPool-11 - Starting...
+2023-09-11 16:44:43.138 INFO  HikariDataSource.getConnection - HikariPool-11 - Start completed.
+2023-09-11 16:44:43.139 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:44:43.198 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:44:43.211 WARN  AbstractApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'articleEndpoint': Unsatisfied dependency expressed through field 'articleService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.vivek.soap.service.IArticleService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-09-11 16:44:43.211 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:44:43.211 INFO  HikariDataSource.close - HikariPool-11 - Shutdown initiated...
+2023-09-11 16:44:43.238 INFO  HikariDataSource.close - HikariPool-11 - Shutdown completed.
+2023-09-11 16:44:43.239 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-09-11 16:44:43.244 INFO  ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-11 16:44:43.248 ERROR LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field articleService in com.vivek.soap.endpoints.ArticleEndpoint required a bean of type 'com.vivek.soap.service.IArticleService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.vivek.soap.service.IArticleService' in your configuration.
+
+2023-09-11 16:44:46.010 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-11 16:44:46.039 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2023-09-11 16:44:46.073 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d75a837e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:44:46.073 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b1757b9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-11 16:44:46.075 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-09-11 16:44:46.114 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-09-11 16:44:46.115 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:44:46.115 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-09-11 16:44:46.115 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-09-11 16:44:46.156 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-09-11 16:44:46.156 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 360 ms
+2023-09-11 16:44:46.167 INFO  HikariDataSource.getConnection - HikariPool-12 - Starting...
+2023-09-11 16:44:46.175 INFO  HikariDataSource.getConnection - HikariPool-12 - Start completed.
+2023-09-11 16:44:46.176 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-09-11 16:44:46.249 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-11 16:44:46.333 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-11 16:44:46.402 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-09-11 16:44:46.405 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-11 16:44:46.407 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-11 16:44:46.410 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-09-11 16:49:30.291 INFO  DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-11 16:49:30.292 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2023-09-11 16:49:30.293 INFO  FrameworkServlet.initServletBean - Completed initialization in 1 ms

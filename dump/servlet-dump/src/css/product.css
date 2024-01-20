@@ -1,0 +1,74 @@
+.container{
+    max-width : 768px;
+	margin: auto;
+}
+
+.button{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rebeccapurple;
+    border-radius: 6px;
+    margin-right: 13px;
+    height:40px;
+}
+
+.product{
+    display : flex;
+    justify-content : space-between;
+}
+
+.product > p {
+    font-size: 18px;
+}
+
+
+.filter {
+    display: flex;
+    justify-content : space-between;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top : 10px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
+
+td{
+font-size: 20px;
+opacity : 0.8px;
+}
+
+input,select{
+    font-size: 16px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top : 10px;
+}
+
+
+ul{
+list-style:none;
+display:grid;
+grid-template-columns: repeat(8,1fr);
+}
+li{
+    width:80px;
+}
+
+a{
+text-decoration :none;
+color:black;
+font-size:18px;
+}

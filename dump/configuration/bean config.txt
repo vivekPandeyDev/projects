@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+   		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        "
+>
+	<context:annotation-config/>
+	<bean id="address1" class="entity.Address" p:houseNo="123" p:addressDetail="new address" p:city="delhi" />
+	<bean id="address2" class="entity.Address" p:houseNo="321" p:addressDetail="old address" p:city="mumbai" />
+
+	<!-- If we declare value in both constructor and setter then IOC will not 
+		call setter for that method means the value provided in the constructor argument 
+		will set :) -->
+	<!-- Point 2: if declare setter property twice it produces error, example 
+		p type setter and vai property element apply for constructor also :) -->
+	<bean id="customer1" class="entity.Customer"
+		c:customerName="anup kumar"
+	>
+		<property name="customerId" value="100" />
+		<property name="monthlyIncome" value="5000" />
+		<property name="customerName">
+			<value>vivek pandey</value>
+		</property>
+		<property name="profession" value="software Engineer" />
+		<property name="designation" value="SDEI" />
+		<property name="companyName" value="xyz company" />
+	</bean>
+	<bean id="multipleCustomer" class="entity.Customer"
+		p:customerId="1002" p:customerName="shivam garg"
+		p:monthlyIncome="2000" p:profession="engineer" p:designation="tester"
+		p:companyName="uvw company" scope="prototype"
+	>
+		<property name="phoneNumbers">
+			<list>
+				<value>9987642224</value>
+				<value>9985325353</value>
+			</list>
+		</property>
+		<property name="addressList">
+			<list>
+				<ref bean="address1"/>
+				<ref bean="address2"/>
+			</list>
+		</property>
+		<property name="emailAdressSet">
+			<set>
+				<value>9987642224</value>
+				<value>9985325353</value>
+				<value>9987642224</value>
+				<value>9985325353</value>
+			</set>
+		</property>
+		<property name="noOfLoans">
+			<map>
+				<entry key="houseLoan" value="2" />
+				<entry key="homeLoan" value="1" />
+				<entry key="consumerLoan" value="5" />
+			</map>
+		</property>
+	</bean>
+	<bean id="customer2" class="entity.Customer">
+		<constructor-arg index="0" name="customerId"
+			type="int" value="101" />
+		<constructor-arg index="1" name="customerName"
+			type="String" value="vishal pandey" />
+		<constructor-arg index="2" name="monthlyIncome"
+			type="double" value="10000" />
+		<constructor-arg index="3" name="profession"
+			type="String" value="doctor" />
+		<constructor-arg index="4" name="designation"
+			type="String" value="heart surgeon" />
+		<constructor-arg index="5" name="companyName"
+			type="String" value="abc company" />
+	</bean>
+</beans>

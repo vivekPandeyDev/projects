@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+	<display-name>Web Project</display-name>
+	<error-page>
+		<exception-type>utility.ApplicationNumberIncorrectException</exception-type>
+		<location>/customError</location>
+	</error-page>
+	
+	<servlet>
+		<servlet-name>errorJsp</servlet-name>
+		<jsp-file>/jsp/errorPage/customError.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>errorJsp</servlet-name>
+		<url-pattern>/customError</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>pageJsp</servlet-name>
+		<jsp-file>/WEB-INF/view/assignment3/page.jsp</jsp-file>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>pageJsp</servlet-name>
+		<url-pattern>/page</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>home.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<session-config>
+		<session-timeout>30</session-timeout>
+		<cookie-config>
+			<http-only>true</http-only>
+			<max-age>1800</max-age>
+		</cookie-config>
+		<tracking-mode>COOKIE</tracking-mode>
+	</session-config>
+</web-app> 

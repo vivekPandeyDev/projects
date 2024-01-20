@@ -1,0 +1,1 @@
+export const PRODUCT_STATUS = { IDLE : 'idle', LOADING : 'loading', ERROR : 'error'}

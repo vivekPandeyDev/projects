@@ -1,0 +1,103 @@
+
+
+
+.d-flex{
+	display:flex;
+}
+.dir-flex{
+    flex-direction: column;
+}
+
+.center{
+	justify-content :center;
+	align-items: center;
+}
+
+
+.container{
+    max-width : 768px;
+	margin: auto;
+}
+
+.nav-bar{
+    background: red;
+    height :50px;
+}
+
+
+.top-row > div{
+    margin-top : 11px;
+}
+
+.form-element > input, select {
+    height: 28px;
+    border-radius: 8px;
+    margin-top: 9px;
+    color: #65744a;
+    width: 311px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+
+}
+
+.form-element > label {
+    font-size: 1.4rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: coral;}
+
+td{
+font-size: 20px;
+}
+
+td > input[type="text"]{
+    font-size: 18px;
+    height : 28px;
+    width : 300px;
+    border-radius : 10px;
+    border : 1px solid black;
+    padding : 5px;
+}
+
+.button{
+
+    font-size: 23px;
+    border: none;
+    outline: none;
+    padding: 6px;
+    color: white;
+    background: rebeccapurple;
+    border-radius: 6px;
+    margin-right: 13px;
+}
+
+.button-group{
+    margin-top : 12px;
+    justify-content : end;
+}
+
+
+ul{
+list-style:none;
+display:grid;
+grid-template-columns: repeat(8,1fr);
+}
+li{
+    width:80px;
+}
+
+a{
+text-decoration :none;
+color:black;
+font-size:18px;
+}

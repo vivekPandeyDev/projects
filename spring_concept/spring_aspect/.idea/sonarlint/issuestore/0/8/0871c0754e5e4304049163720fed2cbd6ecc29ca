@@ -1,0 +1,9 @@
+
+Z
+java:S1854""=Remove this useless assignment to local variable "customer3".(ח˜Þֵ8ßüלזנ0
+K
+java:S1481"".Remove this unused "customer3" local variable.(ח˜Þֵ8וüלזנ0
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(©‏ךÜתÿÿÿÿ
+Q	java:S1251"<This block of commented-out lines of code should be removed.(†²•ִ
+T
+java:S1128"2Remove this unused import 'app_config.JavaConfig'.(¬זßתÿÿÿÿ8יüלזנ0

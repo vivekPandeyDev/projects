@@ -1,0 +1,9 @@
+2023-09-12 10:59:34.493 WARN  HikariPool$HouseKeeper.run - HikariPool-12 - Thread starvation or clock leap detected (housekeeper delta=17h22m29s987ms916µs900ns).
+2023-09-12 11:01:47.446 WARN  HikariPool$HouseKeeper.run - HikariPool-12 - Thread starvation or clock leap detected (housekeeper delta=1m54s557ms55µs100ns).
+2023-09-12 11:37:32.761 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-09-12 11:37:32.761 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-09-12 11:37:32.767 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-09-12 11:37:32.795 INFO  FrameworkServlet.initServletBean - Completed initialization in 33 ms
+2023-09-12 12:39:42.930 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-12 12:39:42.938 INFO  HikariDataSource.close - HikariPool-12 - Shutdown initiated...
+2023-09-12 12:39:42.940 INFO  HikariDataSource.close - HikariPool-12 - Shutdown completed.

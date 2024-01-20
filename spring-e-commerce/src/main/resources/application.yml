@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    default: local
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/commerce
+    password: root
+#    jpa config
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+#    caching mechanism
+  cache:
+    type: REDIS
+    redis:
+      time-to-live: 6_00_000 # 10 min cache
+      cache-null-values: false
+#      data redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: password
+

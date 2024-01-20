@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&family=Luckiest+Guy&display=swap");
+ :root {
+	 --dark: #0b1240;
+	 --accent: #e5006a;
+	 --white: #f9f9f9;
+	 --primary: #4f217f;
+	 --secondary: #ff12fb;
+}
+ body {
+	 background-color: var(--dark);
+	 margin: 0px;
+}
+ .side {
+	 display: grid;
+	 height: 100vh;
+	 overflow: hidden;
+	 place-items: center;
+	 position: absolute;
+	 width: 100%;
+}
+ .side .title {
+	 font-family: "DynaPuff", cursive;
+	 font-size: 5vw;
+	 margin: 0px 10vw;
+	 width: 80vw;
+	 padding: 32px;
+}
+ .side .extraordinary {
+	 font-family: "Luckiest Guy", cursive;
+	 font-size: 1.4em;
+	 line-height: 1.3em;
+}
+ .side-left {
+	 background-color: var(--primary);
+	 width: 60%;
+	 z-index: 2;
+}
+ .side-left .title {
+	 color: var(--secondary);
+}
+ .side-left .extraordinary {
+	 color: var(--white);
+}
+ .side-right {
+	 background-color: var(--secondary);
+}
+ .side-right .title {
+	 color: var(--white);
+}
+ .side-right .extraordinary {
+	 color: var(--primary);
+}

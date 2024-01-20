@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/allocations.css">
+    <title>Allocation Page</title>
+</head>
+<body>
+<div class="container center">
+    <nav>
+        <ul>
+            <li><a href="http://">Product</a></li>
+            <li><a href="http://">Policy Setup</a></li>
+            <li><a href="http://">Parameters</a></li>
+            <li><a href="http://">Application</a></li>
+            <li><a href="http://">Receipt</a></li>
+            <li><a href="http://">Accounting</a></li>
+            <li><a href="http://">Customer</a></li>
+            <li><a href="http://">Product</a></li>
+        </ul>
+    </nav>
+    <h1>Create Allocation Priority</h1>
+    <form class="d-flex dir-flex" method="post">
+        <div class="top-row">
+            <div class="d-flex" style="justify-content:space-between;">
+                <div class="form-element d-flex dir-flex">
+                    <label for="product_name"> product name <sup>*</sup></label>
+                    <input type="text" name="product_name" id="product_name" required>
+                </div>
+                <div class="form-element d-flex dir-flex">
+                    <label for="allocation_type"> allocation_type <sup>*</sup></label>
+                    <select id="allocation_type" name="allocation_type">
+                        <option value="volvo">Volvo XC90</option>
+                        <option value="saab">Saab 95</option>
+                        <option value="mercedes">Mercedes SLK</option>
+                        <option value="audi">Audi TT</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div class="form-element">
+                    <label for="allocation_priority">allocation_priority <sup>*</sup></label>
+                    <br>
+                    <input type="text" name="allocation_priority" id="allocation_priority">
+                </div>
+            </div>
+        </div>
+        <div class="bottom-row">
+            <h3>Charge Inclusion</h3>
+            <table class="my_table">
+                <thead>
+                <th><input type="checkbox" name="charged_code_tick" id="charged_tick"></th>
+                <th>Charge Code</th>
+                <th>Priority</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="checkbox" name="installment_principle_component_check"
+                               id="installment_principle_component_tick"></td>
+                    <td>InstallmentPrincipleComponent</td>
+                    <td>
+                        <input type="text" name="installment_principle_component" id="installment_principle_component">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="installment_interest_component_check"
+                               id="installment_interest_component_tick">
+                    </td>
+                    <td>InstallmentInterestComponent</td>
+                    <td>
+                        <input type="text" name="installment_interest_component" id="installment_interest_component">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="late_payment_penalty_check" id="late_payment_penalty_tick">
+                    </td>
+                    <td>LatePaymentPenaltyCheck</td>
+                    <td>
+                        <input type="text" name="late_payment_penalty_check" id="late_payment_penalty_check">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="disbursal_charge_check" id="disbursal_charge_tick">
+                    </td>
+                    <td>DisbursalCharge</td>
+                    <td>
+                        <input type="text" name="disbursal_charge" id="disbursal_charge">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="processing_fee_check" id="processing_fee_tick">
+                    </td>
+                    <td>ProcessingFee</td>
+                    <td>
+                        <input type="text" name="processing_fee" id="processing_fee">
+                    </td>
+                </tr>
+                </tbody>
+
+
+            </table>
+            <div class="button-group d-flex">
+                <input class="button" type="button" value="save">
+                <input class="button" type="button" value="save & request Approval">
+            </div>
+        </div>
+    </form>
+    <input type="button" value="move to nextStage">
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+}
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "obj".(òöÓÚúÿÿÿÿ8ÞšßÜš1
+X
+java:S1612"6Replace this lambda with method reference 'list::add'.(„ø¼ýÿÿÿÿ8üšßÜš1
+]
+java:S1854 ";Remove this useless assignment to local variable "article".(™úÆçüÿÿÿÿ8ýšßÜš1
+`
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ8ÿšßÜš1

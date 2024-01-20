@@ -1,0 +1,695 @@
+2023-08-02 12:10:42.614 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-02 12:10:42.626 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-02 12:10:46.630 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:10:46.777 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 127 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:10:48.759 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:10:48.786 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:10:48.792 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:10:48.793 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:10:49.217 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:10:49.233 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:10:49.235 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 6605 ms
+2023-08-02 12:10:49.473 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-08-02 12:10:50.300 INFO  HikariPool.checkFailFast - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:10:50.353 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-08-02 12:10:50.395 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:10:52.024 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:10:54.544 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:10:55.242 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:10:57.216 INFO  DirectJDKLog.log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-02 12:10:57.217 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2023-08-02 12:10:57.274 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:10:57.308 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:10:57.323 INFO  FrameworkServlet.initServletBean - Completed initialization in 96 ms
+2023-08-02 12:10:57.532 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:10:57.774 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:15:37.425 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:15:37.512 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:37.513 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:15:37.514 INFO  DirectJDKLog.log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-02 12:15:37.521 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:37.526 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:37.541 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:15:37.553 INFO  HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2023-08-02 12:15:37.595 INFO  HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2023-08-02 12:15:38.702 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:15:38.774 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:15:38.960 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:15:38.962 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:38.966 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:15:38.992 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:15:39.134 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:15:39.137 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:15:39.138 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1313 ms
+2023-08-02 12:15:39.190 INFO  HikariDataSource.getConnection - HikariPool-2 - Starting...
+2023-08-02 12:15:39.222 INFO  HikariPool.checkFailFast - HikariPool-2 - Added connection conn10: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:15:39.226 INFO  HikariDataSource.getConnection - HikariPool-2 - Start completed.
+2023-08-02 12:15:39.230 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:15:39.326 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:15:39.561 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:15:39.767 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:15:40.171 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:15:40.184 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:15:40.262 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:40.281 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:15:40.299 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:15:46.952 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:15:47.029 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:47.030 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:15:47.033 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:47.035 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:47.038 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:15:47.039 INFO  HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+2023-08-02 12:15:47.065 INFO  HikariDataSource.close - HikariPool-2 - Shutdown completed.
+2023-08-02 12:15:48.230 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:15:48.315 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:15:48.446 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:15:48.448 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:48.449 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:15:48.450 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:15:48.587 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:15:48.591 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:15:48.592 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1367 ms
+2023-08-02 12:15:48.624 INFO  HikariDataSource.getConnection - HikariPool-3 - Starting...
+2023-08-02 12:15:48.648 INFO  HikariPool.checkFailFast - HikariPool-3 - Added connection conn20: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:15:48.650 INFO  HikariDataSource.getConnection - HikariPool-3 - Start completed.
+2023-08-02 12:15:48.651 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:15:48.701 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:15:48.794 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:15:48.871 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:15:49.061 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:15:49.064 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:15:49.084 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:15:49.099 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:15:49.105 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:23:38.902 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:23:38.942 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:38.943 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:23:38.945 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:38.947 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:38.950 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:23:38.952 INFO  HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+2023-08-02 12:23:38.971 INFO  HikariDataSource.close - HikariPool-3 - Shutdown completed.
+2023-08-02 12:23:39.597 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:23:39.623 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:23:39.734 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:23:39.735 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:39.736 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:23:39.738 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:23:39.860 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:23:39.863 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:23:39.864 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 745 ms
+2023-08-02 12:23:39.917 INFO  HikariDataSource.getConnection - HikariPool-4 - Starting...
+2023-08-02 12:23:39.945 INFO  HikariPool.checkFailFast - HikariPool-4 - Added connection conn30: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:23:39.946 INFO  HikariDataSource.getConnection - HikariPool-4 - Start completed.
+2023-08-02 12:23:39.947 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:23:39.998 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:23:40.096 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:23:40.173 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:23:40.350 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:23:40.358 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:23:40.376 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:40.394 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:23:40.407 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:23:54.384 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:23:54.425 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:54.428 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:23:54.430 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:54.432 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:54.435 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:23:54.436 INFO  HikariDataSource.close - HikariPool-4 - Shutdown initiated...
+2023-08-02 12:23:54.459 INFO  HikariDataSource.close - HikariPool-4 - Shutdown completed.
+2023-08-02 12:23:55.117 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:23:55.148 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:23:55.261 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:23:55.263 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:55.265 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:23:55.266 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:23:55.368 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:23:55.371 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:23:55.373 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 754 ms
+2023-08-02 12:23:55.414 INFO  HikariDataSource.getConnection - HikariPool-5 - Starting...
+2023-08-02 12:23:55.465 INFO  HikariPool.checkFailFast - HikariPool-5 - Added connection conn40: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:23:55.466 INFO  HikariDataSource.getConnection - HikariPool-5 - Start completed.
+2023-08-02 12:23:55.468 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:23:55.533 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:23:55.636 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:23:55.735 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:23:55.914 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:23:55.919 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:23:55.937 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:23:55.953 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:23:55.963 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:24:17.712 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:24:17.878 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:17.879 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:24:17.884 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:17.902 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:17.909 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:24:17.915 INFO  HikariDataSource.close - HikariPool-5 - Shutdown initiated...
+2023-08-02 12:24:17.962 INFO  HikariDataSource.close - HikariPool-5 - Shutdown completed.
+2023-08-02 12:24:35.566 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:24:35.644 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:24:35.929 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:24:35.934 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:35.936 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:24:35.939 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:24:36.162 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:24:36.178 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:24:36.185 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1658 ms
+2023-08-02 12:24:36.286 INFO  HikariDataSource.getConnection - HikariPool-6 - Starting...
+2023-08-02 12:24:36.342 INFO  HikariPool.checkFailFast - HikariPool-6 - Added connection conn50: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:24:36.354 INFO  HikariDataSource.getConnection - HikariPool-6 - Start completed.
+2023-08-02 12:24:36.363 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:24:36.449 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:24:36.582 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:24:39.930 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:24:40.911 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:24:40.933 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:24:41.063 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:41.087 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:24:41.100 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:24:43.859 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:24:44.124 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:44.130 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:24:44.135 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:44.187 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:44.192 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:24:44.196 INFO  HikariDataSource.close - HikariPool-6 - Shutdown initiated...
+2023-08-02 12:24:44.418 INFO  HikariDataSource.close - HikariPool-6 - Shutdown completed.
+2023-08-02 12:24:45.718 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:24:45.822 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:24:46.222 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:24:46.242 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:46.247 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:24:46.248 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:24:46.477 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:24:46.480 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:24:46.481 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1684 ms
+2023-08-02 12:24:46.563 INFO  HikariDataSource.getConnection - HikariPool-7 - Starting...
+2023-08-02 12:24:46.694 INFO  HikariPool.checkFailFast - HikariPool-7 - Added connection conn60: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:24:46.722 INFO  HikariDataSource.getConnection - HikariPool-7 - Start completed.
+2023-08-02 12:24:46.734 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:24:46.902 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:24:47.112 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:24:47.720 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:24:48.257 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:24:48.309 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:24:48.371 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:48.434 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:24:48.497 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:24:52.192 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:24:52.367 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:52.368 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:24:52.372 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:52.375 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:24:52.380 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:24:52.413 INFO  HikariDataSource.close - HikariPool-7 - Shutdown initiated...
+2023-08-02 12:24:52.505 INFO  HikariDataSource.close - HikariPool-7 - Shutdown completed.
+2023-08-02 12:25:30.886 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:25:30.920 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:25:31.052 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:25:31.054 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:31.056 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:25:31.058 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:25:31.159 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:25:31.160 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:25:31.161 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 869 ms
+2023-08-02 12:25:31.223 INFO  HikariDataSource.getConnection - HikariPool-8 - Starting...
+2023-08-02 12:25:31.242 INFO  HikariPool.checkFailFast - HikariPool-8 - Added connection conn70: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:25:31.244 INFO  HikariDataSource.getConnection - HikariPool-8 - Start completed.
+2023-08-02 12:25:31.246 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:25:31.355 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:25:31.486 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:25:31.579 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:25:31.793 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:25:31.798 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:25:31.819 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:31.839 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:25:31.857 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:25:43.688 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:25:43.765 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:43.767 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:25:43.771 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:43.773 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:43.777 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:25:43.779 INFO  HikariDataSource.close - HikariPool-8 - Shutdown initiated...
+2023-08-02 12:25:43.808 INFO  HikariDataSource.close - HikariPool-8 - Shutdown completed.
+2023-08-02 12:25:44.566 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:25:44.600 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:25:44.724 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:25:44.750 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:44.751 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:25:44.752 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:25:44.869 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:25:44.872 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:25:44.872 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 927 ms
+2023-08-02 12:25:44.928 INFO  HikariDataSource.getConnection - HikariPool-9 - Starting...
+2023-08-02 12:25:45.003 INFO  HikariPool.checkFailFast - HikariPool-9 - Added connection conn80: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:25:45.004 INFO  HikariDataSource.getConnection - HikariPool-9 - Start completed.
+2023-08-02 12:25:45.005 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:25:45.087 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:25:45.200 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:25:45.340 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:25:45.575 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:25:45.583 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:25:45.604 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:45.629 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:25:45.645 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:25:48.158 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:25:48.252 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:48.253 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:25:48.259 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:48.264 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:48.267 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:25:48.269 INFO  HikariDataSource.close - HikariPool-9 - Shutdown initiated...
+2023-08-02 12:25:48.304 INFO  HikariDataSource.close - HikariPool-9 - Shutdown completed.
+2023-08-02 12:25:49.021 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:25:49.052 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:25:49.196 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:25:49.198 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:49.199 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:25:49.200 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:25:49.337 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:25:49.339 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:25:49.339 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 803 ms
+2023-08-02 12:25:49.360 INFO  HikariDataSource.getConnection - HikariPool-10 - Starting...
+2023-08-02 12:25:49.380 INFO  HikariPool.checkFailFast - HikariPool-10 - Added connection conn90: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:25:49.381 INFO  HikariDataSource.getConnection - HikariPool-10 - Start completed.
+2023-08-02 12:25:49.381 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:25:49.423 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:25:49.500 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:25:49.579 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:25:49.683 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:25:49.687 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:25:49.702 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:49.722 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:25:49.762 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:25:59.534 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:25:59.574 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:59.575 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:25:59.578 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:59.581 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:25:59.583 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:25:59.584 INFO  HikariDataSource.close - HikariPool-10 - Shutdown initiated...
+2023-08-02 12:25:59.596 INFO  HikariDataSource.close - HikariPool-10 - Shutdown completed.
+2023-08-02 12:26:00.180 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:26:00.208 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:26:00.433 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:26:00.435 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:00.438 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:26:00.439 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:26:00.579 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:26:00.582 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:26:00.584 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 875 ms
+2023-08-02 12:26:00.645 INFO  HikariDataSource.getConnection - HikariPool-11 - Starting...
+2023-08-02 12:26:00.668 INFO  HikariPool.checkFailFast - HikariPool-11 - Added connection conn100: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:26:00.669 INFO  HikariDataSource.getConnection - HikariPool-11 - Start completed.
+2023-08-02 12:26:00.671 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:26:00.773 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:26:00.857 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:26:00.952 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:26:01.151 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:26:01.157 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:26:01.185 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:01.206 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:26:01.219 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:26:06.902 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:26:06.959 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:06.962 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:26:06.967 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:06.973 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:06.980 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:26:06.982 INFO  HikariDataSource.close - HikariPool-11 - Shutdown initiated...
+2023-08-02 12:26:07.000 INFO  HikariDataSource.close - HikariPool-11 - Shutdown completed.
+2023-08-02 12:26:07.823 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:26:07.847 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:26:07.964 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:26:07.965 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:07.968 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:26:07.969 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:26:08.164 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:26:08.166 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:26:08.168 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 943 ms
+2023-08-02 12:26:08.218 INFO  HikariDataSource.getConnection - HikariPool-12 - Starting...
+2023-08-02 12:26:08.253 INFO  HikariPool.checkFailFast - HikariPool-12 - Added connection conn110: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:26:08.254 INFO  HikariDataSource.getConnection - HikariPool-12 - Start completed.
+2023-08-02 12:26:08.255 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:26:08.389 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:26:08.553 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:26:08.645 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:26:08.852 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:26:08.855 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:26:08.876 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:26:08.899 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:26:08.914 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:34:29.485 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:34:29.530 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:29.531 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:34:29.533 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:29.535 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:29.538 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:29.540 INFO  HikariDataSource.close - HikariPool-12 - Shutdown initiated...
+2023-08-02 12:34:29.552 INFO  HikariDataSource.close - HikariPool-12 - Shutdown completed.
+2023-08-02 12:34:30.131 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:34:30.191 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:34:30.303 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:34:30.304 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:30.310 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:34:30.311 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:34:30.453 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:34:30.455 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:34:30.458 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 726 ms
+2023-08-02 12:34:30.508 INFO  HikariDataSource.getConnection - HikariPool-13 - Starting...
+2023-08-02 12:34:30.547 INFO  HikariPool.checkFailFast - HikariPool-13 - Added connection conn120: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:34:30.551 INFO  HikariDataSource.getConnection - HikariPool-13 - Start completed.
+2023-08-02 12:34:30.567 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:34:30.685 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:34:30.775 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:30.928 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:34:31.126 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:34:31.138 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:34:31.210 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:31.235 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:34:31.283 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:34:33.684 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:34:33.725 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:33.726 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:34:33.729 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:33.732 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:33.735 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:33.736 INFO  HikariDataSource.close - HikariPool-13 - Shutdown initiated...
+2023-08-02 12:34:33.749 INFO  HikariDataSource.close - HikariPool-13 - Shutdown completed.
+2023-08-02 12:34:34.191 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:34:34.214 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:34:34.347 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:34:34.349 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:34.350 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:34:34.351 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:34:34.472 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:34:34.475 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:34:34.475 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 604 ms
+2023-08-02 12:34:34.501 INFO  HikariDataSource.getConnection - HikariPool-14 - Starting...
+2023-08-02 12:34:34.523 INFO  HikariPool.checkFailFast - HikariPool-14 - Added connection conn130: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:34:34.526 INFO  HikariDataSource.getConnection - HikariPool-14 - Start completed.
+2023-08-02 12:34:34.527 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:34:34.579 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:34:34.636 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:34.771 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:34:34.972 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:34:34.979 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:34:35.004 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:35.028 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:34:35.037 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:34:56.077 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:34:56.119 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:56.120 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:34:56.122 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:56.125 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:56.128 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:56.129 INFO  HikariDataSource.close - HikariPool-14 - Shutdown initiated...
+2023-08-02 12:34:56.139 INFO  HikariDataSource.close - HikariPool-14 - Shutdown completed.
+2023-08-02 12:34:56.680 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:34:56.736 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:34:56.912 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:34:56.913 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:56.914 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:34:56.915 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:34:57.058 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:34:57.061 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:34:57.062 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 754 ms
+2023-08-02 12:34:57.099 INFO  HikariDataSource.getConnection - HikariPool-15 - Starting...
+2023-08-02 12:34:57.122 INFO  HikariPool.checkFailFast - HikariPool-15 - Added connection conn140: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:34:57.123 INFO  HikariDataSource.getConnection - HikariPool-15 - Start completed.
+2023-08-02 12:34:57.124 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:34:57.239 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:34:57.321 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:57.427 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:34:57.627 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:34:57.637 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:34:57.665 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:57.682 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:34:57.690 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:34:59.578 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:34:59.617 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:59.617 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:34:59.619 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:59.622 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:34:59.624 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:34:59.626 INFO  HikariDataSource.close - HikariPool-15 - Shutdown initiated...
+2023-08-02 12:34:59.636 INFO  HikariDataSource.close - HikariPool-15 - Shutdown completed.
+2023-08-02 12:35:00.075 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:35:00.105 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:35:00.198 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:35:00.200 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:00.201 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:35:00.202 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:35:00.365 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:35:00.367 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:35:00.368 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 592 ms
+2023-08-02 12:35:00.403 INFO  HikariDataSource.getConnection - HikariPool-16 - Starting...
+2023-08-02 12:35:00.425 INFO  HikariPool.checkFailFast - HikariPool-16 - Added connection conn150: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:35:00.429 INFO  HikariDataSource.getConnection - HikariPool-16 - Start completed.
+2023-08-02 12:35:00.431 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:35:00.523 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:35:00.582 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:00.661 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:35:00.857 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:35:00.862 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:35:00.884 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:00.900 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:35:00.906 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:35:02.419 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:35:02.490 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:02.491 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:35:02.495 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:02.497 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:02.499 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:02.500 INFO  HikariDataSource.close - HikariPool-16 - Shutdown initiated...
+2023-08-02 12:35:02.513 INFO  HikariDataSource.close - HikariPool-16 - Shutdown completed.
+2023-08-02 12:35:02.939 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:35:02.994 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:35:03.111 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:35:03.112 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:03.113 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:35:03.114 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:35:03.235 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:35:03.247 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:35:03.248 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+2023-08-02 12:35:03.306 INFO  HikariDataSource.getConnection - HikariPool-17 - Starting...
+2023-08-02 12:35:03.331 INFO  HikariPool.checkFailFast - HikariPool-17 - Added connection conn160: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:35:03.332 INFO  HikariDataSource.getConnection - HikariPool-17 - Start completed.
+2023-08-02 12:35:03.332 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:35:03.387 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:35:03.449 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:03.626 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:35:03.829 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:35:03.834 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:35:03.856 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:03.875 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:35:03.885 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:35:05.344 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:35:05.388 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:05.389 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:35:05.393 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:05.396 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:05.399 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:05.401 INFO  HikariDataSource.close - HikariPool-17 - Shutdown initiated...
+2023-08-02 12:35:05.417 INFO  HikariDataSource.close - HikariPool-17 - Shutdown completed.
+2023-08-02 12:35:06.021 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:35:06.046 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:35:06.145 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:35:06.147 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:06.148 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:35:06.149 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:35:06.219 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:35:06.241 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:35:06.250 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 663 ms
+2023-08-02 12:35:06.273 INFO  HikariDataSource.getConnection - HikariPool-18 - Starting...
+2023-08-02 12:35:06.289 INFO  HikariPool.checkFailFast - HikariPool-18 - Added connection conn170: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:35:06.290 INFO  HikariDataSource.getConnection - HikariPool-18 - Start completed.
+2023-08-02 12:35:06.291 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:35:06.332 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:35:06.400 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:06.519 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:35:06.637 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:35:06.641 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:35:06.655 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:06.670 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:35:06.678 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:35:08.181 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:35:08.421 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:08.509 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:35:08.531 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:08.534 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:08.537 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:08.538 INFO  HikariDataSource.close - HikariPool-18 - Shutdown initiated...
+2023-08-02 12:35:08.614 INFO  HikariDataSource.close - HikariPool-18 - Shutdown completed.
+2023-08-02 12:35:09.893 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:35:09.956 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:35:10.158 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:35:10.162 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:10.166 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:35:10.170 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:35:10.325 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:35:10.327 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:35:10.328 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1365 ms
+2023-08-02 12:35:10.372 INFO  HikariDataSource.getConnection - HikariPool-19 - Starting...
+2023-08-02 12:35:10.397 INFO  HikariPool.checkFailFast - HikariPool-19 - Added connection conn180: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:35:10.399 INFO  HikariDataSource.getConnection - HikariPool-19 - Start completed.
+2023-08-02 12:35:10.400 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:35:10.460 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:35:10.572 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:35:10.676 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:35:10.863 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:35:10.872 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:35:10.902 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:35:10.921 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:35:10.931 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:36:52.047 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:36:52.101 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:52.102 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:36:52.110 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:52.121 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:52.128 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:36:52.130 INFO  HikariDataSource.close - HikariPool-19 - Shutdown initiated...
+2023-08-02 12:36:52.140 INFO  HikariDataSource.close - HikariPool-19 - Shutdown completed.
+2023-08-02 12:36:52.613 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:36:52.640 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:36:52.730 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:36:52.731 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:52.732 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:36:52.733 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:36:52.847 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:36:52.850 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:36:52.850 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 529 ms
+2023-08-02 12:36:52.881 INFO  HikariDataSource.getConnection - HikariPool-20 - Starting...
+2023-08-02 12:36:52.907 INFO  HikariPool.checkFailFast - HikariPool-20 - Added connection conn190: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:36:52.909 INFO  HikariDataSource.getConnection - HikariPool-20 - Start completed.
+2023-08-02 12:36:52.909 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:36:52.967 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:36:53.027 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:36:53.232 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:36:53.564 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:36:53.586 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:36:53.625 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:53.644 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:36:53.654 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:36:55.073 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:36:55.114 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:55.115 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:36:55.118 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:55.121 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:55.123 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:36:55.124 INFO  HikariDataSource.close - HikariPool-20 - Shutdown initiated...
+2023-08-02 12:36:55.136 INFO  HikariDataSource.close - HikariPool-20 - Shutdown completed.
+2023-08-02 12:36:55.601 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:36:55.621 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:36:55.716 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:36:55.717 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:55.718 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:36:55.718 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:36:55.818 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:36:55.819 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:36:55.820 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 544 ms
+2023-08-02 12:36:55.837 INFO  HikariDataSource.getConnection - HikariPool-21 - Starting...
+2023-08-02 12:36:55.852 INFO  HikariPool.checkFailFast - HikariPool-21 - Added connection conn200: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:36:55.853 INFO  HikariDataSource.getConnection - HikariPool-21 - Start completed.
+2023-08-02 12:36:55.854 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:36:55.885 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:36:55.924 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:36:55.991 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:36:56.133 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:36:56.136 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:36:56.147 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:56.157 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:36:56.165 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:36:57.604 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-08-02 12:36:57.648 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:57.649 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:36:57.651 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:57.653 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:57.655 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:36:57.656 INFO  HikariDataSource.close - HikariPool-21 - Shutdown initiated...
+2023-08-02 12:36:57.677 INFO  HikariDataSource.close - HikariPool-21 - Shutdown completed.
+2023-08-02 12:36:58.187 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:36:58.212 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:36:58.353 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:36:58.354 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:58.355 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:36:58.356 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:36:58.443 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:36:58.445 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:36:58.446 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 575 ms
+2023-08-02 12:36:58.473 INFO  HikariDataSource.getConnection - HikariPool-22 - Starting...
+2023-08-02 12:36:58.491 INFO  HikariPool.checkFailFast - HikariPool-22 - Added connection conn210: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:36:58.492 INFO  HikariDataSource.getConnection - HikariPool-22 - Start completed.
+2023-08-02 12:36:58.494 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:36:58.582 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:36:58.669 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:36:58.751 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:36:58.970 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:36:58.974 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:36:59.003 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:36:59.025 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:36:59.066 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:40:45.743 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:40:45.781 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:45.782 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:40:45.785 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:45.787 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:45.789 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:40:45.790 INFO  HikariDataSource.close - HikariPool-22 - Shutdown initiated...
+2023-08-02 12:40:45.827 INFO  HikariDataSource.close - HikariPool-22 - Shutdown completed.
+2023-08-02 12:40:46.245 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:40:46.263 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:40:46.404 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:40:46.406 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:46.407 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:40:46.408 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:40:46.495 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:40:46.497 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:40:46.498 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 544 ms
+2023-08-02 12:40:46.522 INFO  HikariDataSource.getConnection - HikariPool-23 - Starting...
+2023-08-02 12:40:46.536 INFO  HikariPool.checkFailFast - HikariPool-23 - Added connection conn220: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:40:46.537 INFO  HikariDataSource.getConnection - HikariPool-23 - Start completed.
+2023-08-02 12:40:46.538 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:40:46.602 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:40:46.636 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:40:46.696 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:40:46.826 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:40:46.830 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:40:46.849 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:46.864 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:40:46.873 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 13:02:35.980 WARN  HikariPool$HouseKeeper.run - HikariPool-23 - Thread starvation or clock leap detected (housekeeper delta=48s962ms309µs600ns).
+2023-08-02 14:13:42.152 WARN  HikariPool$HouseKeeper.run - HikariPool-23 - Thread starvation or clock leap detected (housekeeper delta=42m5s729ms543µs500ns).
+2023-08-02 15:01:10.081 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 15:01:10.151 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:10.152 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 15:01:10.226 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:10.232 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:10.249 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 15:01:10.253 INFO  HikariDataSource.close - HikariPool-23 - Shutdown initiated...
+2023-08-02 15:01:10.278 INFO  HikariDataSource.close - HikariPool-23 - Shutdown completed.
+2023-08-02 15:01:11.394 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 15:01:11.415 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2023-08-02 15:01:11.750 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 15:01:11.751 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:11.753 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 15:01:11.753 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 15:01:11.862 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 15:01:11.864 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 15:01:11.864 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1235 ms
+2023-08-02 15:01:11.910 INFO  HikariDataSource.getConnection - HikariPool-24 - Starting...
+2023-08-02 15:01:12.000 INFO  HikariPool.checkFailFast - HikariPool-24 - Added connection conn260: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 15:01:12.001 INFO  HikariDataSource.getConnection - HikariPool-24 - Start completed.
+2023-08-02 15:01:12.002 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 15:01:12.064 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 15:01:12.129 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 15:01:12.335 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 15:01:12.646 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 15:01:12.657 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 15:01:12.729 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:12.792 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 15:01:12.810 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged

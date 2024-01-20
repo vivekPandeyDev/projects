@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:b="http://docs.oasis-open.org/ns/cmis/messaging/200908/"
+           targetNamespace="http://docs.oasis-open.org/ns/cmis/messaging/200908/"
+           xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
+           elementFormDefault="qualified">
+
+    <xs:element name="addContentStreamRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="b:contentStream"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="contentStream">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="length" type="xs:int"/>
+                <xs:element name="mimeType" type="xs:string"/>
+                <xs:element name="filename" type="xs:string"/>
+                <xs:element name="stream" type="b:streamType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="streamType">
+        <xs:sequence>
+            <xs:element name="include" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="getObjectIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getDocumentRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="objectId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getDocumentResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="image" type="b:image"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="image">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="content" type="xs:base64Binary" xmime:expectedContentTypes="image/jpeg"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

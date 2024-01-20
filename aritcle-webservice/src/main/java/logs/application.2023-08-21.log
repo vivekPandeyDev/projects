@@ -1,0 +1,173 @@
+2023-08-21 16:08:59.764 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-21 16:08:59.771 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-21 16:09:00.675 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:09:00.743 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:09:01.031 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$8aea4996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:09:01.034 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$650541b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:09:01.063 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:09:01.660 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:09:01.675 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:09:01.676 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:09:01.677 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:09:01.812 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:09:01.813 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2039 ms
+2023-08-21 16:09:01.855 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-08-21 16:09:02.087 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-08-21 16:09:02.093 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:09:03.204 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:09:04.041 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:09:04.515 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:09:04.539 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:09:04.630 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:09:21.622 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-08-21 16:09:21.624 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-08-21 16:09:21.629 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-08-21 16:09:21.649 INFO  FrameworkServlet.initServletBean - Completed initialization in 25 ms
+2023-08-21 16:10:01.567 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:10:01.574 INFO  HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2023-08-21 16:10:01.619 INFO  HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2023-08-21 16:10:02.220 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:10:02.270 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:10:02.381 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$8aea4996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:10:02.382 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$650541b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:10:02.385 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:10:02.486 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:10:02.487 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:10:02.489 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:10:02.489 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:10:02.555 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:10:02.556 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2023-08-21 16:10:02.581 INFO  HikariDataSource.getConnection - HikariPool-2 - Starting...
+2023-08-21 16:10:02.595 INFO  HikariDataSource.getConnection - HikariPool-2 - Start completed.
+2023-08-21 16:10:02.595 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:10:02.716 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:10:02.878 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:10:03.015 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:10:03.022 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:10:03.026 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:10:03.042 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-21 16:10:09.520 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-08-21 16:10:09.521 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-08-21 16:10:09.521 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-08-21 16:10:09.524 INFO  FrameworkServlet.initServletBean - Completed initialization in 3 ms
+2023-08-21 16:10:47.914 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:10:47.915 INFO  HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+2023-08-21 16:10:47.955 INFO  HikariDataSource.close - HikariPool-2 - Shutdown completed.
+2023-08-21 16:10:48.718 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:10:48.762 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:10:48.879 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$8aea4996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:10:48.881 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$650541b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:10:48.883 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:10:48.971 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:10:48.973 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:10:48.975 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:10:48.977 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:10:49.045 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:10:49.046 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 961 ms
+2023-08-21 16:10:49.078 INFO  HikariDataSource.getConnection - HikariPool-3 - Starting...
+2023-08-21 16:10:49.093 INFO  HikariDataSource.getConnection - HikariPool-3 - Start completed.
+2023-08-21 16:10:49.094 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:10:49.306 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:10:49.523 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:10:49.730 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:10:49.771 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:10:49.779 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:10:49.789 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-21 16:10:53.405 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:10:53.406 INFO  HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+2023-08-21 16:10:53.427 INFO  HikariDataSource.close - HikariPool-3 - Shutdown completed.
+2023-08-21 16:10:53.854 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:10:53.887 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:10:53.957 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$8aea4996] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:10:53.958 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$650541b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:10:53.961 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:10:54.072 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:10:54.076 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:10:54.078 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:10:54.082 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:10:54.187 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:10:54.187 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 652 ms
+2023-08-21 16:10:54.213 INFO  HikariDataSource.getConnection - HikariPool-4 - Starting...
+2023-08-21 16:10:54.230 INFO  HikariDataSource.getConnection - HikariPool-4 - Start completed.
+2023-08-21 16:10:54.230 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:10:54.341 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:10:54.475 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:10:54.565 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:10:54.570 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:10:54.573 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:10:54.580 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-21 16:11:01.586 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:11:01.587 INFO  HikariDataSource.close - HikariPool-4 - Shutdown initiated...
+2023-08-21 16:11:01.588 INFO  HikariDataSource.close - HikariPool-4 - Shutdown completed.
+2023-08-21 16:11:47.991 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-21 16:11:47.992 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-21 16:11:49.479 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:11:49.642 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:11:50.229 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d163b2bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:11:50.231 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ab7eaade] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:11:50.298 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:11:51.269 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:11:51.286 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:11:51.287 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:11:51.288 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:11:51.497 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:11:51.498 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3504 ms
+2023-08-21 16:11:51.584 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-08-21 16:11:51.980 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-08-21 16:11:51.993 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:11:54.200 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:11:55.389 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:11:56.319 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:11:56.377 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:11:56.480 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:16:30.244 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:16:30.255 INFO  HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2023-08-21 16:16:30.533 INFO  HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2023-08-21 16:16:38.191 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:16:38.334 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:16:38.514 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$d163b2bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:16:38.516 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ab7eaade] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:16:38.519 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:16:38.689 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:16:38.691 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:16:38.692 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:16:38.747 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:16:38.931 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:16:38.931 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1782 ms
+2023-08-21 16:16:39.016 INFO  HikariDataSource.getConnection - HikariPool-3 - Starting...
+2023-08-21 16:16:39.034 INFO  HikariDataSource.getConnection - HikariPool-3 - Start completed.
+2023-08-21 16:16:39.034 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:16:45.408 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:16:45.691 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:16:45.868 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:16:45.885 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:16:45.890 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:16:45.901 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-21 16:16:46.824 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:16:46.825 INFO  HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+2023-08-21 16:16:46.847 INFO  HikariDataSource.close - HikariPool-3 - Shutdown completed.
+2023-08-21 16:17:24.385 INFO  DeferredLog.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-21 16:17:24.386 INFO  DeferredLog.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-21 16:17:26.063 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-21 16:17:26.228 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+2023-08-21 16:17:27.018 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'WSConfig' of type [com.vivek.soap.config.WSConfig$$EnhancerBySpringCGLIB$$101a40af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:17:27.023 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ea3538d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-21 16:17:27.099 INFO  AbstractAddressingEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-08-21 16:17:28.753 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+2023-08-21 16:17:28.800 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:17:28.801 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-21 16:17:28.802 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2023-08-21 16:17:29.150 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-21 16:17:29.151 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4762 ms
+2023-08-21 16:17:29.385 INFO  HikariDataSource.getConnection - HikariPool-1 - Starting...
+2023-08-21 16:17:30.041 INFO  HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2023-08-21 16:17:30.057 INFO  H2ConsoleAutoConfiguration.lambda$h2Console$0 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/soap'
+2023-08-21 16:17:32.964 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-21 16:17:34.236 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-21 16:17:34.911 INFO  OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2023-08-21 16:17:34.934 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-21 16:17:35.027 INFO  TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-21 16:17:47.839 INFO  DirectJDKLog.log - Initializing Spring MessageDispatcherServlet 'messageDispatcherServlet'
+2023-08-21 16:17:47.840 INFO  FrameworkServlet.initServletBean - Initializing Servlet 'messageDispatcherServlet'
+2023-08-21 16:17:47.848 INFO  SaajSoapMessageFactory.afterPropertiesSet - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2023-08-21 16:17:47.878 INFO  FrameworkServlet.initServletBean - Completed initialization in 38 ms

@@ -1,0 +1,13 @@
+    public static Connection getConnection() {
+        try (InputStream file = MyConnection.class.getClassLoader().getResourceAsStream("dbconfig.properties")) {
+            Properties properties = new Properties();
+            properties.load(file);
+            Class.forName(properties.getProperty("driver"));
+            connection = DriverManager.getConnection(properties.getProperty("uri"), properties);
+            connection.setAutoCommit(false);
+            logger.info("connection created successfully!!");
+        } catch (Exception e) {
+            logger.error("Cannot create connection : {}", e.getMessage());
+        }
+        return connection;
+    }

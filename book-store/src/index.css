@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	width: 100%;
+	height: 100vh; /* vh stands for viewport height, 100vh means 100% of the viewport height */
+	margin: 0; /* Remove default margin to ensure the body takes up the full viewport */
+	padding: 0; /* Remove default padding for consistency */
+}
+
+.transparent {
+	mix-blend-mode: multiply;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #4b91db;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #edf2f7;
+}
+
+/* For Firefox */
+.scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: #cbd5e0 #edf2f7;
+}

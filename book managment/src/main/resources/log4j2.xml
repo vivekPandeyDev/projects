@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <!-- Define log file location -->
+        <Property name="LOG_PATH">./src/main/java/logs</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console Appender for console output -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %C{1}.%M - %msg%n" />
+        </Console>
+
+        <!-- File Appender for Hibernate logs -->
+        <RollingFile name="HibernateLogFile" fileName="${LOG_PATH}/hibernate.log" filePattern="${LOG_PATH}/hibernate.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %C{1}.%M - %msg%n" />
+            <Policies>
+                <!-- Rolling based on size greater then 1mb -->
+                <SizeBasedTriggeringPolicy size="1024 KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30" />
+            <!-- Keep 30 days' worth of log files -->
+        </RollingFile>
+
+        <!-- File Appender for Application logs -->
+        <RollingFile name="AppLogFile" fileName="${LOG_PATH}/application.log" filePattern="${LOG_PATH}/application.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %C{1}.%M - %msg%n" />
+            <Policies>
+                <!-- Rolling based on size greater then 1mb -->
+                <SizeBasedTriggeringPolicy size="1024 KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30" />
+            <!-- Keep 30 days' worth of log files -->
+        </RollingFile>
+
+        <!-- File Appender for general logs -->
+        <RollingFile name="ConsoleFile" fileName="${LOG_PATH}/console.log" filePattern="${LOG_PATH}/application.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %C{1}.%M - %msg%n" />
+            <Policies>
+                <!-- Rolling based on date, creating a new log file every day -->
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="5" />
+            <!-- Keep 5 days' worth of log files -->
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConsoleFile"/>
+        </Root>
+
+        <!-- Hibernate Logger -->
+        <Logger name="org.hibernate" level="error" additivity="false">
+            <AppenderRef ref="HibernateLogFile" />
+        </Logger>
+
+        <!-- Add other loggers for your application if needed -->
+        <!-- For example, you can add a custom logger for your web components with warn level -->
+        <!-- change it to your package base name -->
+        <Logger name="com.vivek.managment" level="warn" additivity="false">
+            <AppenderRef ref="AppLogFile" />
+        </Logger>
+
+    </Loggers>
+</Configuration>

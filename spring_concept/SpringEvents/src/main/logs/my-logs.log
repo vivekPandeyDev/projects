@@ -1,0 +1,71 @@
+date:2023/04/24 time:09:37:05 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streaming big bang theory: ep-001
+date:2023/04/24 time:09:37:48 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - ZeeCafe:streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:09:38:21 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:09:41:55 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:09:41:55 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:09:41:55 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:09:42:37 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:09:42:37 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:09:42:37 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:09:43:11 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:09:43:11 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:09:43:11 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:09:43:11 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:09:43:11 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:09:47:05 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:00:47 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:12:44 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-002
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-002
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-002
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:13:16 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-002
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:10:16:15 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamDemonSlayer => streaming demon slayer: ep-001
+date:2023/04/24 time:10:20:44 [main] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Failed to process @EventListener annotation on bean with name 'anupListener'; nested exception is java.lang.IllegalStateException: Maximum one parameter is allowed for event listener method: public void com.learn.events.listener.AnupListener.onApplicationEvent(com.learn.events.custom_events.TheBigBangTheoryEvent,com.learn.events.custom_events.DemonSlayerEvent)
+date:2023/04/24 time:10:22:25 [main] WARN  org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Failed to process @EventListener annotation on bean with name 'anupListener'; nested exception is java.lang.IllegalStateException: Maximum one parameter is allowed for event listener method: public void com.learn.events.listener.AnupListener.onApplicationEvent(com.learn.events.custom_events.TheBigBangTheoryEvent,com.learn.events.custom_events.DemonSlayerEvent)
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamBigBangTheory => streaming big bang theory: ep-001
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.VishalListener - Vishal: started watching BBT
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.VishalListener - Vishal: playing BBT: ep-001
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.publisher.ZeeCafePublisher - streamDemonSlayer => streaming demon slayer: ep-001
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.AnupListener - Anup: started watching BBT
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.AnupListener - Anup: playing BBT: ep-001
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.VivekListener - Vivek: started watching BBT
+date:2023/04/24 time:10:29:44 [main] INFO  com.learn.events.listener.VivekListener - Vivek: playing BBT: ep-001
