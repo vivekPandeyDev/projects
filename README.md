@@ -48,6 +48,53 @@ Welcome to this multi-project repository that houses various applications built 
    - **Technologies:**
      - **Spring Boot:** For handling file uploads.
 
+#### 7. SOAP Web Service for Article CRUD with Image Upload
+   - **Description:** Integrating a SOAP web service into the multi-project repository to manage articles with CRUD operations, including image upload capabilities.
+   - **Technologies:**
+      - **Spring Boot:** For creating a SOAP-based web service.
+      - **Spring Web Services:** Building SOAP web services.
+      - **JAXB:** Java Architecture for XML Binding for handling XML in Java.
+      - **Spring Data JPA:** Simplifying data access using JPA.
+      - **Spring Boot Starter Web:** For developing web applications.
+      - **Spring Boot Starter Data JPA:** Simplifying database access using JPA.
+#### 8. BRD Project with Make and Checker Functionality
+   - **Description:** Welcome to the BRD project, a comprehensive solution that fulfills business requirements with make and checker functionalities. This project is built using Java Server Pages (JSP), Java Standard Tag Library (JSTL), and incorporates internationalization (i18n) in both Hindi (hi) and English (en). Spring Security is employed for secure authentication and authorization, and the system supports the bulk upload of customer data.
+   - **Functionality:**
+      - **Make and Checker Functionality:** Provides tools for generating and verifying business requirements documents.
+      - **Internationalization (i18n):** Supports both Hindi (hi) and English (en) languages for user interfaces.
+      - **JSP and JSTL:** Utilizes Java Server Pages and Java Standard Tag Library for dynamic web content.
+      - **Spring Security:** Implements secure authentication and authorization features.
+      - **Multiple Customer Upload:** Supports the bulk upload of customer data.
+#### 9. Attendance System with QR Code, Face Detection, and Manual Entry    
+   - **Description** Welcome to the Attendance System project, a comprehensive solution for attendance tracking using QR code, face detection, and manual entry. This project is designed with a frontend built using HTML, CSS, JavaScript, and Bootstrap, and a backend implemented in Spring Boot with JWT security.
+   - **Features**
+     - **QR Code Attendance:** Track attendance by scanning QR codes.
+      - **Face Detection:** Utilize face detection technology for attendance tracking.
+      - **Manual Entry:** Allow manual entry for attendance tracking.
+      - **Report Generation:** Generate attendance reports for analysis.
+   - **Technologies**
+      - **HTML, CSS, JavaScript:** For building the user interface.
+      - **Bootstrap:** Enhance the design and responsiveness of the frontend.
+      - **Spring Boot:** Develop a robust backend for handling attendance logic.
+      - **JWT Security:** Implement secure authentication and authorization.
+      - **Database (e.g., MySQL, PostgreSQL):** Store and manage attendance data.
+
+**Explore the individual projects:**
+
+- [VanLife](./vanlife): Van Rental frontend Platform
+- [VanLife](./vanlife-backend): Van Rental backend Platform
+- [E-Commerce Platform](./spring-e-commerce): E-commerce application with jwt token and payment gateway
+- [Microservice Architecture](./spring-boot-microservices): Microservices with product,order,discovery,inventory
+- [Pokemon App](./pokemon-app): React Query and daisyUi with react
+- [Movie API with Redis Caching](./movie-api): Spring boot moive api with redis caching
+- [SOAP Web Service for Article CRUD](./soap-ws): SOAP Web Service (Article CRUD)
+- [SOAP File Service(./soap-file-service) : Upload and dowload file using SOAP with spring boot
+- [Note Taking App](./note-app): Take note with react and react query
+- [Maker Checker BRD](./final_brd): Brd project with jsp, jstl and spring boot
+- [Book Store](./book-store): Rest Application with book and author
+- [Attendance System](./attendance_system): Attendance system
+- [Board Game](./board-game): Board game using react
+  
 ### Getting Started
 
 Each project has its own set of prerequisites and installation steps. Please refer to the individual project directories for detailed instructions.
