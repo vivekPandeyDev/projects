@@ -88,7 +88,7 @@ Welcome to this multi-project repository that houses various applications built 
 - [Pokemon App](./pokemon-app): React Query and daisyUi with react
 - [Movie API with Redis Caching](./movie-api): Spring boot moive api with redis caching
 - [SOAP Web Service for Article CRUD](./soap-ws): SOAP Web Service (Article CRUD)
-- [SOAP File Service(./soap-file-service) : Upload and dowload file using SOAP with spring boot
+- [SOAP File Service](./soap-file-service) : Upload and dowload file using SOAP with spring boot
 - [Note Taking App](./note-app): Take note with react and react query
 - [Maker Checker BRD](./final_brd): Brd project with jsp, jstl and spring boot
 - [Book Store](./book-store): Rest Application with book and author
